@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        app:queryHint="Sensor (Sensor 1, Sensor 2,...)"
+        app:iconifiedByDefault="false"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+    <ListView
+        android:id="@+id/list_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp" />
+
+</LinearLayout>
